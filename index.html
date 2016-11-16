@@ -15,9 +15,9 @@ html,body {
 </style>
 <script type="text/javascript">
 var socket;
-
+//this was client.html
 function init() {
-	var host = "ws://127.0.0.1:9000/echobot"; // SET THIS TO YOUR SERVER
+	var host = "ws://172.30.209.177:8080/PHP_Web_Socket"; // SET THIS TO YOUR SERVER
 	try {
 		socket = new WebSocket(host);
 		log('WebSocket - status '+socket.readyState);
